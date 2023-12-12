@@ -101,7 +101,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(41, 39, 39, 0.7);
 }
 
 .d-bloc button:hover {
@@ -165,7 +165,7 @@ a:hover {
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.979);
 }
 
 .d-bloc .panel button:hover {
@@ -362,7 +362,13 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.footblock{
+    background-color: black;
+    color: white;
+}
+.foottext{
+    color: white;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
