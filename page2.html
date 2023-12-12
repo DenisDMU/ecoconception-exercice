@@ -116,12 +116,11 @@
 
 <!-- ScrollToTop Button -->
 <!-- <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a> -->
-<button onclick="topla()" id="boutop" title="Go to top">Top</button>
+<button onclick="topla()" id="boutop" title="Go to top" aria-label="Bouton pour remonter en haut de la page">On remonte</button>
 <script>
-	let mybutton = document.getElementById("boutop");
 	function topla() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  		document.body.scrollTop = 0;
+  		document.documentElement.scrollTop = 0;
 }
 </script>
 <!-- ScrollToTop Button END-->
