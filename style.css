@@ -508,6 +508,9 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
+    height: 50px;
+    width: 200px;
+    margin: 20px;
     box-shadow: none;
 }
 
