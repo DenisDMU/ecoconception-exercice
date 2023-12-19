@@ -8,6 +8,10 @@ body {
     font-display: swap
 }
 
+p{
+    font-weight: bold;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
